@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenri</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+  <style>
+    @import url('/pages/css/WebPage.css');
+  </style>
+</head>
+<body style="padding-top: 65px;">
+  <!--Navbar-->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-house-door-fill"></i>首頁</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navArea" aria-controls="navArea" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navArea">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-geo-alt"></i>&nbsp;區域狀態</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-graph-up-arrow"></i>&nbsp;歷史數據</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-card-list"></i>&nbsp;警告紀錄</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-tools"></i>&nbsp;系統管理</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-book"></i>&nbsp;操作說明</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/Navbar-->
+  
+  <!--Card-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title"><i class="bi bi-map"></i>&nbsp;GIS</h5>
+          </div>
+          <div class="card-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.21306948196!2d121.5271169140524!3d25.02684224473441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9844da97d3b%3A0x5bf5f965058e03b9!2z5ZyL56uL6Ie654Gj5bir56-E5aSn5a2457ac5ZCI5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1672039384077!5m2!1szh-TW!2stw" 
+            width="100%" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="col-sm-12 col-md-5">
+        <div class="card" style="height: 518px;">
+          <div class="card-header">
+            <h5 class="card-title"><i class="bi bi-exclamation-octagon-fill"></i>&nbsp;警告</h5>
+          </div>
+          <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>區域</th>
+                      <th>幹管</th>
+                      <th>監測站</th>
+                      <th>水位</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>東區</th>
+                      <th>AC-木柵路次幹管</th>
+                      <th>景福街230巷2號</th>
+                      <th>42</th>
+                    </tr>
+                    <tr>
+                      <th>東區</th>
+                      <th>AC-木柵路次幹管</th>
+                      <th>景福街230巷2號</th>
+                      <th>42</th>
+                    </tr>
+                    <tr>
+                      <th>東區</th>
+                      <th>AC-木柵路次幹管</th>
+                      <th>景福街230巷2號</th>
+                      <th>42</th>
+                    </tr>
+                    <tr>
+                      <th>東區</th>
+                      <th>AC-木柵路次幹管</th>
+                      <th>景福街230巷2號</th>
+                      <th>42</th>
+                    </tr>
+                    <tr>
+                      <th>東區</th>
+                      <th>AC-木柵路次幹管</th>
+                      <th>景福街230巷2號</th>
+                      <th>42</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-3">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title"><i class="bi bi-bar-chart-line-fill"></i>&nbsp;雨量圖</h5>
+          </div>
+          <div class="card-body">
+            <img src="/pages/img/rainVolume.jpg" width="100%" height="350" alt="rainVolume">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title"><i class="bi bi-cloud-rain-heavy-fill"></i>&nbsp;降雨分佈圖</h5>
+          </div>
+          <div class="card-body">
+            <img src="/pages/img/rain.jpg" width="100%" height="350" alt="rain">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-5">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title"><i class="bi bi-eye"></i>&nbsp;監測趨勢圖</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-2">
+                <!-- select -->
+                <div class="form-group">
+                  <label>區域:</label>
+                  <select class="form-control form-control-sm" id="areaSelect">
+                    <option value="1">請選擇</option>
+                    <option value="2">東區</option>
+                    <option value="3">西區</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <!-- select -->
+                <div class="form-group">
+                  <label>幹管:</label>
+                  <select class="form-control form-control-sm" id="trunkSelect">
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <!-- select -->
+                <div class="form-group">
+                  <label>測站點:</label>
+                  <select class="form-control form-control-sm" id="stationSelect">
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <!-- select -->
+                <div class="form-group">
+                  <label>時間區間:</label>
+                  <select name="ctl00$ContentPlaceHolder1$intervalSelect" id="intervalSelect" class="form-control form-control-sm">
+                    <option value="oneMinute">1分鐘</option>
+                    <option value="fiveMinutes">5分鐘</option>
+                    <option value="tenMinutes">10分鐘</option>
+                    <option value="thirtyMinutes">30分鐘</option>
+                    <option value="hour">1小時</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <!-- select -->
+                <div class="form-group">
+                  <label>日期區間:</label>
+                  <select name="ctl00$ContentPlaceHolder1$daySelect" id="daySelect" class="form-control form-control-sm">
+                    <option value="0">1日</option>
+                    <option value="14">15日</option>
+                    <option value="29">30日</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card" style="height:400px; background:white;">
+                  <div class="card-body">
+                      <div class="row">
+                            <div class="col-sm-4">
+                                <button type="button" class="btn btn-info float-right" style="background-color:#008FFB">水位</button>
+                            </div>
+                          <div class="col-sm-4 text-center">
+                                <button type="button" class="btn btn-info" style="background-color:#00E396">雨量</button>
+                            </div>
+                          <div class="col-sm-4">
+                                <button type="button" class="btn btn-info float-left" style="background-color:#FEB019">流量</button>
+                            </div>
+                          <div class="col-sm-12">
+                      <div id="chart" style="color:black"></div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

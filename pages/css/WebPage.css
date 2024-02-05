@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(to right bottom,rgba(50, 60, 74, 0.409),rgba(10, 91, 114, 0.39))
+}
+h5{
+    color:white;
+}
+.card{
+    background:linear-gradient(to bottom,rgb(100, 117, 141),rgba(10, 91, 114, 0.829))
+    
+}
+nav{
+    background-color: #25282b;
+}
+th{
+    color:white;
+}
+/* .card-control-1{
+    height: 435px;
+    overflow-y: auto;
+} */
+label{
+    color:white;
+}
